@@ -1,0 +1,115 @@
+
+/* Navbar */
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px; 
+    z-index: 1000;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    color: #ffffff;
+  }
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar a {
+    color: #ccc; /* Color base */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background-color 0.3s, color 0.3s; /* Suaviza las transiciones de color */
+}
+
+#navbar a iconify-icon,
+#navbar a span {
+    margin-right: 8px; 
+    transition: transform 0.3s; /
+}
+
+#navbar a:hover {
+    background-color: #0563bb; /* Cambio de color de fondo al hacer hover */
+    color: #fff; /* Cambio de color de texto al hacer hover */
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#navbar a:hover iconify-icon,
+#navbar a:hover span {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al hacer hover */
+}
+
+/* Asegurarse de que el texto es visible y se destaca en hover */
+#navbar a span {
+    display: block; /* Asegura que el texto siempre es visible */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+#navbar iconify-icon  {
+    font-size: 1.5rem;
+}
+
+#navbar a:hover iconify-icon,
+#navbar a:hover span {
+    display: block;
+}
+
+#navbar a span {
+    display: none;  
+}
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    #navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100%; /* Cambio para ocupar todo el ancho superior */
+        height: 50px; /* Altura fija para el navbar */
+        flex-direction: row; /* Cambia la dirección del flex a horizontal */
+        justify-content: space-around; /* Distribuye los ítems uniformemente */
+        align-items: center; /* Alinea los ítems verticalmente en el centro */
+    }
+
+    #navbar ul {
+        width: 100%; /* Asegura que el UL ocupe todo el ancho del navbar */
+        display: flex;
+        justify-content: space-around; /* Distribución uniforme de los ítems */
+        padding: 0;
+    }
+
+    #navbar ul li {
+        display: flex; /* Asegura que los LI se comporten como elementos flexibles */
+    }
+
+    #navbar a {
+        padding: 10px;
+        margin: 0; /* Ajuste del margen para dispositivos móviles */
+    }
+
+    #navbar a iconify-icon {
+        font-size: 1.5rem; /* Tamaño adecuado para la visibilidad en móviles */
+    }
+
+    #navbar a span {
+        display: none; /* Opción de ocultar el texto para evitar la sobrecarga visual */
+    }
+}
+

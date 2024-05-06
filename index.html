@@ -2,34 +2,262 @@
 <html lang="es">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sitio web en construcción</title>
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/resume.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <title>Portafolio de GAPZ</title>
 </head>
 
 <body>
-	<div class="coverPage">
-		<div class="__coverPage-content">
-			<h1>Sitio web en construcción</h1>
-			<h2></h2>
-			<h3>Estamos construyendo algo <strong>FANTASTICO!</strong></h3>
-			<div id="contador" class="contador">
-				<span id="dias">00</span> d,
-				<span id="horas">00</span> h,
-				<span id="minutos">00</span> m y
-				<span id="segundos">00</span> s
-			</div>
-			<div class="socialMedia">
-				<a class="socialIcon" href="mailto:gperzal@gmail.com"><i class="fas fa-envelope"></i></a>
-				<a class="socialIcon" href="https://www.facebook.com/ShioNx"><i class="fab fa-facebook-f"></i></a>
-				<a class="socialIcon" href="https://www.linkedin.com/in/guido-perez-zelaya-3b6a32113/"><i
-						class="fab fa-linkedin-in"></i></a>
-			</div>
-		</div>
-	</div>
-	<script src="assets/js/scripts.js"></script>
+
+    <header id="hero" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="content">
+            <p>Hola, Bienvenidos a mi Portafolio.</p>
+            <h1>
+                Mi nombre es <br />
+                <span class="gradientText name">Guido Perez Zelaya
+                    <br /></span> y soy un <br />
+                <span id="typed-text" class="gradientText job"></span>
+            </h1>
+
+        </div>
+        <div class="avatar">
+            <img src="../assets/img/avatar.png" alt="Guido Perez" class="avatar-image bg-glass">
+        </div>
+    </header>
+
+    <nav id="navbar" class="navbar nav-glass">
+        <ul>
+            <li><a href="#hero" class="nav-link"><iconify-icon icon="material-symbols:home"></iconify-icon>
+                    <span>Home</span></a></li>
+            <li><a href="#about" class="nav-link"><iconify-icon icon="ph:identification-card-fill"></iconify-icon>
+                    <span>About</span></a></li>
+            <li><a href="#resume" class="nav-link"><iconify-icon
+                        icon="mdi:file-document"></iconify-icon><span>Resume</span></a></li>
+            <li><a href="#projects" class="nav-link"><iconify-icon
+                        icon="material-symbols:work"></iconify-icon><span>Proyectos</span></a></li>
+            <li><a href="#contact" class="nav-link"><iconify-icon
+                        icon="material-symbols:mail"></iconify-icon><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <section id="about" class="section text-animated">
+        <div class="container">
+            <h2 class="font-weight-bold mb-4">Acerca de Mí</h2>
+            <p class="lead">
+                Apasionado por la innovación y la resolución de problemas complejos, actualmente me encuentro
+                desarrollando mis habilidades técnicas y teóricas como estudiante de Ingeniería en Informática. Me
+                caracterizo por un constante deseo de aprender y de mantenerme actualizado con las últimas tendencias
+                tecnológicas.
+            </p>
+            <p class="lead">
+                Creo firmemente en el poder del trabajo en equipo, donde las ideas se cruzan, los conocimientos se
+                amplían y todos contribuyen al éxito colectivo. Mi enfoque no solo se dirige a cumplir con las
+                expectativas, sino a superarlas, aportando siempre calidad excepcional en cada proyecto. Busco
+                activamente oportunidades que me permitan crecer, aportar y co-evolucionar con profesionales igualmente
+                apasionados.
+            </p>
+        </div>
+    </section>
+
+    <section id="resume" class="section resume">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title text-animated"><iconify-icon icon="ion:university"></iconify-icon> Educación
+                    </h3>
+                    <div class="resume-item text-animated">
+                        <h4>Ingeniero en Informática</h4>
+                        <h5>2022 - Actualmente</h5>
+                        <p><em>Instituto Profesional INACAP CHILE</em></p>
+                        <p>Estudiante de Ingeniería en Informática</p>
+                        <p> Capacitado para desarrollar e implementar soluciones integrales basadas en metodologías de
+                            la ingeniería de
+                            software, gestiona recursos técnicos, económicos, humanos, y marcos de desarrollo seguro.
+                            Además, lidera proyectos informáticos definidos en la planificación estratégica, brindando
+                            soluciones tecnológicas de diversa índole y siguiendo las metodologías de gestión de las
+                            Tecnologías de la Información, en función de las necesidades del sector productivo.</p>
+                    </div>
+                    <div class="resume-item text-animated">
+                        <h4>Analista Programador</h4>
+                        <h5>2020 - 2022</h5>
+                        <p><em>Centro de Formación Técnica INACAP CHILE</em></p>
+                        <p> Titulado de Analista Programador </p>
+                        <p> Capacitado para analizar y desarrollar aplicaciones
+                            informáticas en diversas plataformas tecnológicas mediante metodologías ágiles, entregando
+                            soporte y mantención a los sistemas Informáticos, y realizando las pruebas de calidad y
+                            protección de la información durante el ciclo de vida de desarrollo del software</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title text-animated"><iconify-icon icon="ion:briefcase"></iconify-icon>
+                        Experiencia
+                        Profesional</h3>
+                    <div class="resume-item text-animated">
+                        <h4>Analista de Base de Datos </h4>
+                        <h5>2016 - 2023</h5>
+                        <p><em>Ilustre Municipalidad de Maipú</em></p>
+                        <ul>
+                            <li>Capacitación exitosa del personal del Departamento de Asistencia Social en el uso del
+                                SAS.</li>
+                            <li>Elaboración de informes analíticos que han contribuido a la toma de decisiones
+                                estratégicas en el departamento.</li>
+                            <li>Identificación y análisis de tendencias en los datos del SAS que han permitido
+                                comprender mejor las necesidades de la población atendida.</li>
+                            <li>Mejora de la eficiencia y efectividad de los procesos internos del departamento.</li>
+                            <li>Contribución a la mejora de la calidad de los servicios prestados a la comunidad.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume-item text-animated">
+                        <h4>Team Leader Soporte y Configuración, </h4>
+                        <h5>2011 - 2016</h5>
+                        <p><em>Jazzplat LTDA (Jazztel España)</em></p>
+                        <ul>
+                            <li>Lideré y supervisé equipos técnicos en terreno, logrando un incremento del 50% en la
+                                eficiencia operativa</li>
+                            <li> Establecí una comunicación efectiva con socios internacionales como Movistar y Orange
+                                España para la resolución de problemas de red</li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Resume Section -->
+
+
+    <section id="projects" class="section">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="project-card h-100 pb-3 pt-3">
+                    <img src="../assets/img/skate-park.png" class="card-img" alt="Skate Park Project">
+                    <div class="project-info">
+                        <h5 class="project-title">Skate Park Website</h5>
+                        <p class="project-description">Un proyecto de demostración de un sitio web para un parque de
+                            skate.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/gperzal/Prueba-Skate-Park" class="project-icon github-link"
+                                target="_blank">
+                                <iconify-icon icon="mdi:github"></iconify-icon>
+                            </a>
+                            <a href="https://skate-park.onrender.com/" class="project-icon demo-link" target="_blank">
+                                <iconify-icon icon="material-symbols:link"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card h-100 pb-3 pt-3">
+                    <img src="../assets/img/mi-banco.png" class="card-img" alt="Mi Banco Project">
+                    <div class="project-info">
+                        <h5 class="project-title">Mi Banco</h5>
+                        <p class="project-description">Un proyecto de demostración de un sistema bancario.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/gperzal/Prueba-Banco" class="project-icon github-link"
+                                target="_blank">
+                                <iconify-icon icon="mdi:github"></iconify-icon>
+                            </a>
+                            <a href="https://banco-2wbt.onrender.com/" class="project-icon demo-link" target="_blank">
+                                <iconify-icon icon="material-symbols:link"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center font-weight-bold mb-5">Contacto</h2>
+            <div class="row justify-content-center">
+                <!-- Información de contacto -->
+                <div class="col-md-5">
+                    <div class="contact-info mb-4">
+                        <h4 class="mb-3">Información</h4>
+                        <p><strong>Email:</strong> gperzal@gmail.com</p>
+                        <p><strong>Teléfono:</strong> +56998876935</p>
+                        <p><strong>Ubicación:</strong> Santiago, Chile</p>
+                    </div>
+                    <div class="contact-info mb-4">
+                        <h4>Puedes buscarme en: </h4>
+                        <ul>
+                            <li> <a href="https://github.com/gperzal" target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                            <li> <a href="https://linkedin.com/in/gperzal" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Formulario de contacto -->
+                <div class="col-md-5">
+                    <form action="https://formspree.io/f/xvojvkqb" method="POST" class="contact-form">
+                        <div class="form-group mb-3">
+                            <label for="email">Tu Correo:</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="message">Tu Mensaje:</label>
+                            <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Opcional: Mapa -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.928154931295!2d-70.60224852264133!3d-33.58121460422365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d74711b2b845%3A0x786c2dd3709144c7!2sPl%C3%A9yades%201547%2C%208150215%20Puente%20Alto%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1696086616974!5m2!1ses-419!2scl"
+                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark py-3">
+        <p class="text-white-50 text-center">© <span id="current-year"></span> - Guido Perez Zelaya. Todos los derechos
+            e Izquierdos reservados.
+        </p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/js/particles.json', function () {
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </body>
 
 </html>

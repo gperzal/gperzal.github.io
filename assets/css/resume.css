@@ -1,0 +1,156 @@
+
+/* Resume */
+
+#resume {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: floralwhite;
+    
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+    
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0563bb;
+  }
+
+  .resume .resume-item  p{
+    padding-left: 20px;
+    color: floralwhite;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 30px;
+    color: floralwhite;
+  }
+
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+    color: floralwhite;
+    
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+    color: floralwhite;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+  }
+
+  
+  .resume-item {
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.resume-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.resume-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+.resume-item a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.text-animated {
+    opacity: 0; 
+    animation: fadeInUp 0.8s ease-out forwards; /* 'forwards' mantiene el estado final visible */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .resume-section {
+        min-height: auto; 
+        padding: 20px 15px; 
+    }
+    .section-title {
+        font-size: 22px; 
+    }
+    .resume-content h3 {
+        font-size: 20px; 
+    }
+    .resume-item h4 {
+        font-size: 18px; 
+    }
+    .resume-item h5 {
+        font-size: 16px; 
+    }
+    .resume-item p, .resume-item ul {
+        font-size: 14px; 
+    }
+
+
+    .resume-title, .resume-item h4, .resume-item h5 {
+        text-align: center;
+    }
+    .resume-item {
+        text-align: justify;
+    }
+}
+
+
