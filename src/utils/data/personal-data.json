@@ -1,0 +1,279 @@
+{
+    "personal": {
+        "name": "Guido Perez Zelaya",
+        "email": "gperzal@gmail.com",
+        "phone": "+56 998876935",
+        "address": "Santiago de Chile",
+        "devUsername": "gperzal",
+        "github": "https://github.com/gperzal",
+        "facebook": "https://www.facebook.com/gperzal",
+        "linkedIn": "https://www.linkedin.com/in/gperzal",
+        "twitter": "https://twitter.com/gperzal",
+        "stackOverflow": "https://stackoverflow.com/users/16840768/gperzal",
+        "devto": "https://dev.to/gperzal/",
+        "slack": "https://leetcode.com/gperzal/",
+        "profileImage": "/profile.jpg",
+        "designation": "Ingeniero en Informática",
+        "description": "Soy Guido Perez, Analista Programador y tambien Ingeniero en Informática en INACAP, con 3 años de experiencia en roles autónomos y freelance. Especializado en el diseño, implementación, y mantenimiento de soluciones web, con sólido conocimiento en arquitecturas de software y desarrollo full-stack. Hábil en la comunicación y colaboración dentro de equipos multidisciplinarios, y proactivo en la búsqueda de soluciones innovadoras para afrontar desafíos técnicos en entornos dinámicos. Experiencia comprobada en la gestión y liderazgo de proyectos complejos, con un enfoque constante en la mejora continua y en mantenerse actualizado con las últimas tecnologías.",
+        "resume": "https://1drv.ms/b/c/6284d9d624106334/ETQCyaHhHotHiY8Y4Osqh_MBttiRFsV4aHa3AyO5Od8KjA?e=ShXIdh"
+    },
+    "education": [
+        {
+            "id": 1,
+            "title": "Ingeniería en Informática",
+            "duration": "2022 - 2024",
+            "institution": "Instituto Nacional de Capacitación Profesional - INACAP",
+            "certificateImage": "/png/placeholder.png",
+            "graduated": false
+        },
+        {
+            "id": 2,
+            "title": "Analista Programador",
+            "duration": "2020 - 2022",
+            "institution": "Instituto Nacional de Capacitación Profesional - INACAP",
+            "certificateImage": "/certificate/analista-programador.jpg",
+            "graduated": true
+        }
+    ],
+    "certifications": [
+        {
+            "id": 1,
+            "title": "JS Full Stack Trainee",
+            "issuer": "DesafioLatam",
+            "date": "Mayo 2024",
+            "certificateImage": "/certificate/js-fullstack-trainee.png"
+        },
+        {
+            "id": 2,
+            "title": "Fundamentos de Python II",
+            "issuer": "INACAP Chile",
+            "date": "Diciembre 2023",
+            "certificateImage": "/certificate/fundamentos-de-python-II.jpg"
+        }
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "title": "Analista de Base de datos",
+            "company": "Ilustre Municipalidad de Maipu",
+            "duration": "Octubre 2016 - Julio 2023",
+            "role": "Backend Developer",
+            "responsibilities": [
+                "Desarrollé un sistema de reporting con SQL, Excel y Power BI, mejorando en un 50% la eficiencia del análisis contable y facilitando decisiones basadas en datos en tiempo real.",
+                "Coordiné y optimicé procesos administrativos, incrementando la satisfacción de los usuarios mediante mejoras continuas y eficiencia operativa.",
+                "Administré bases de datos SQL, asegurando la integridad y velocidad en la generación de informes clave."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "FullStack Developer",
+            "company": "ServiciosZero",
+            "role": "Backend Developer",
+            "duration": "Sepetiembre 2023 - Enero 2024",
+            "responsibilities": [
+                "Implementé API RESTful utilizando Node.js y Express, mejorando la escalabilidad y rendimiento del sistema.",
+                "Integré microservicios con Docker y Kubernetes para optimizar el despliegue y la administración de la infraestructura en AWS.",
+                "Desarrollé interfaces de usuario con React y Next.js, logrando una mejora del 30% en la experiencia de usuario mediante un diseño modular y eficiente."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Freelance Web Developer",
+            "company": "Codifica y construye algo en el día a día.",
+            "role": "Full Stack Developer",
+            "duration": "Enero 2024 - Presente",
+            "responsibilities": [
+                "Diseño y desarrollo de aplicaciones web dinámicas utilizando React y Next.js en el frontend y Node.js con Express en el backend.",
+                "Integración de bases de datos relacionales y no relacionales (SQL, MongoDB) para soportar grandes volúmenes de datos y garantizar la disponibilidad de los mismos.",
+                "Automatización de despliegues continuos utilizando CI/CD pipelines en plataformas como AWS y Docker, asegurando la entrega rápida y eficiente de nuevas funcionalidades."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "AI Powered Financial App",
+            "description": "Construimos una aplicación móvil financiera impulsada por IA utilizando Express, Typescript, OpenAI, AWS y MongoDB. Integré autenticación OTP con AWS SES y sistemas de autenticación con Google y Facebook.",
+            "tools": [
+                "Express",
+                "MongoDB",
+                "OpenAI API",
+                "AWS SES",
+                "AWS S3",
+                "Node Mailer",
+                "Joi",
+                "Puppeteer",
+                "EC2",
+                "PM2",
+                "Nginx"
+            ],
+            "role": "Backend Developer",
+            "code": "",
+            "demo": "",
+            "image": "/image/crefin.jpg",
+            "tags": [
+                "Finance",
+                "AI",
+                "Mobile App"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Travel Agency App",
+            "description": "Desarrollé una aplicación web completa para una agencia de viajes. Usé NextJS, Typescript, MUI, TailwindCSS, Google Maps, entre otras tecnologías.",
+            "tools": [
+                "NextJS",
+                "Tailwind CSS",
+                "Google Maps",
+                "NestJS",
+                "TypeScript",
+                "MySQL",
+                "AWS S3",
+                "Sun-Editor"
+            ],
+            "role": "Full Stack Developer",
+            "code": "",
+            "demo": "",
+            "image": "/image/travel.jpg",
+            "tags": [
+                "Travel",
+                "Agency",
+                "Web App"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "AI Powered Real Estate",
+            "description": "Construimos una app inmobiliaria basada en IA usando Express, OpenAI, Replicate, Stripe y MongoDB, entre otras tecnologías.",
+            "tools": [
+                "React",
+                "Bootstrap",
+                "Stripe",
+                "Express",
+                "TypeScript",
+                "MongoDB",
+                "Azure Blob",
+                "OpenAI API",
+                "Replicate AI"
+            ],
+            "role": "Full Stack Developer",
+            "code": "",
+            "demo": "",
+            "image": "/image/real-estate.jpg",
+            "tags": [
+                "Travel",
+                "NextJS"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Newsroom Management",
+            "description": "Desarrollé una aplicación de gestión de noticias utilizando NextJS, Material UI, Redux, y otros npm packages.",
+            "tools": [
+                "NextJS",
+                "Material UI",
+                "Redux",
+                "Sun Editor",
+                "Calendar"
+            ],
+            "role": "Full Stack Developer",
+            "code": "",
+            "demo": "",
+            "image": "/image/ayla.jpg",
+            "tags": [
+                "Travel",
+                "NextJS"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "category": "UI"
+        },
+        {
+            "name": "CSS",
+            "category": "UI"
+        },
+        {
+            "name": "Tailwind",
+            "category": "UI"
+        },
+        {
+            "name": "React",
+            "category": "UI"
+        },
+        {
+            "name": "Next.js",
+            "category": "UI"
+        },
+        {
+            "name": "Bootstrap",
+            "category": "UI"
+        },
+        {
+            "name": "Figma",
+            "category": "UI"
+        },
+        {
+            "name": "ChakraUI",
+            "category": "UI"
+        },
+        {
+            "name": "ShadcnUI",
+            "category": "UI"
+        },
+        {
+            "name": "MaterialUI",
+            "category": "UI"
+        },
+        {
+            "name": "JavaScript",
+            "category": "Programming"
+        },
+        {
+            "name": "TypeScript",
+            "category": "Programming"
+        },
+        {
+            "name": "Python",
+            "category": "Programming"
+        },
+        {
+            "name": "Django",
+            "category": "Programming"
+        },
+        {
+            "name": "PostgreSQL",
+            "category": "Database"
+        },
+        {
+            "name": "MongoDB",
+            "category": "Database"
+        },
+        {
+            "name": "MySQL",
+            "category": "Database"
+        },
+        {
+            "name": "Oracle",
+            "category": "Database"
+        },
+        {
+            "name": "Git",
+            "category": "Tools"
+        },
+        {
+            "name": "Docker",
+            "category": "Tools"
+        },
+        {
+            "name": "AWS",
+            "category": "Tools"
+        },
+        {
+            "name": "MS Office",
+            "category": "Others"
+        }
+    ]
+}
