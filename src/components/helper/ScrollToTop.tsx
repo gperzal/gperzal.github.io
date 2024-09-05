@@ -19,9 +19,11 @@ const ScrollToTop: React.FC = () => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll, true);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+
     return () => {
-      window.removeEventListener("scroll", handleScroll, true);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
