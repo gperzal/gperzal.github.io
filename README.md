@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 GAPZ Developer Portfolio
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-100000?style=for-the-badge&logo=github&logoColor=white)](https://gperzal.github.io/)
 
-First, run the development server:
+Este es el portafolio de desarrollador personal de **Guido Pérez Zelaya (GAPZ)**. Muestra mis habilidades, proyectos y experiencia utilizando herramientas modernas de desarrollo web. El portafolio está construido con **Next.js**, **React**, **TypeScript** y **TailwindCSS**, y está desplegado en **Vercel**.
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Next.js** - Framework de React para renderizado del lado del servidor y generación de sitios estáticos.
+- **React.js** - Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript** - TypeScript para un desarrollo mejorado.
+- **Tailwind CSS** - Framework CSS de utilidades para crear diseños personalizados rápidamente
+- **Vercel** - Plataforma de alojamiento y despliegue para aplicaciones web modernas
+
+## 🚀 Características
+
+- **Diseño Responsivo**: Completamente optimizado para dispositivos de escritorio, tabletas y móviles.
+- **Modo Oscuro**: Tema oscuro elegante para un aspecto moderno y estilizado.
+- **Animaciones Suaves**: Animaciones sutiles para una mejor experiencia de usuario.
+- **Formulario de Contacto**: Integrado con EmailJS para una comunicación fácil.
+- **Integración con Redes Sociales**: Enlaces a GitHub, LinkedIn, Twitter y más.
+- **Sección de Proyectos**: Destaca los proyectos más relevantes con descripciones y enlaces a repositorios de GitHub.
+
+### 📂 Estructura del Proyecto
+
+```
+/src
+├── /app
+│   ├── /components   # Componentes React reutilizables
+│   ├── /pages        # Páginas de Next.js (ej., Inicio, Acerca de, Proyectos,Contacto)
+│   └── /styles       # Estilos globales y de TailwindCSS
+├── /public           # Activos estáticos (imágenes, iconos, etc.)
+└── /utils            # Funciones de utilidad y datos (ej., personal-data.json)
+```
+
+### 🌐 Demo en Vivo
+
+Puedes ver el portafolio en vivo en:
+
+👉 **[Despliegue en Vercel](https://gperzal.vercel.app/)**
+
+### ⚙️ Instrucciones de Configuración
+
+#### Prerrequisitos
+
+- **Node.js** (v14 o posterior)
+- **npm** o **yarn** (gestor de paquetes de Node.js)
+
+#### Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/gperzal/gperzal.github.io.git
+   ```
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd developer-portfolio
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
+
+#### Ejecutando el Servidor de Desarrollo
+
+Para iniciar el proyecto localmente, ejecuta:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El portafolio estará accesible en http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Construyendo para Producción
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para generar una compilación de producción, utiliza el siguiente comando:
 
-## Learn More
+```bash
+npm run build
+# o
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 📧 Contacto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+No dudes en ponerte en contacto conmigo por correo electrónico o a través de cualquiera de los enlaces de redes sociales a continuación:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Correo electrónico: gperzal@gmail.com
+- LinkedIn: Guido Pérez Zelaya
+- GitHub: gperzal
 
-## Deploy on Vercel
+### 🏆 Créditos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Un agradecimiento especial a [Abu Said](https://github.com/said7388) por la plantilla original del portafolio y la inspiración.
