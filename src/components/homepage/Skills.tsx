@@ -3,7 +3,7 @@ import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
-const categories = ["UI", "Program", "DB", "Tools", "Others"];
+const categories = ["UI", "Program", "DB", "Tools"];
 
 const categorizeSkills = (skills: any[]) => {
   return categories.map((category) => ({
@@ -44,8 +44,8 @@ const Skills: React.FC = () => {
         </div>
       </div>
 
-      {/* Renderizamos las habilidades en 5 columnas por categoría */}
-      <div className="grid grid-cols-5 gap-8">
+      {/* Renderizamos las habilidades en 4 columnas por categoría */}
+      <div className="grid grid-cols-4 gap-8">
         {categorizedSkills.map((categoryObj, index) => (
           <div key={index} className="flex flex-col items-center">
             {/* Título de la categoría */}
