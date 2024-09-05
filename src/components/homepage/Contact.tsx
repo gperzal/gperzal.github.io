@@ -66,10 +66,10 @@ const Contact = () => {
       );
       if (res.status === 200) {
         toast.success("Message sent successfully!");
-        setInput({ name: "", email: "", message: "" }); // Limpiar el formulario
+        setInput({ name: "", email: "", message: "" });
       }
-    } catch (error) {
-      toast.error(error?.text || "Error sending email");
+    } catch (error: any) {
+      toast.error(error?.message || "Error sending email");
     }
   };
 
@@ -129,7 +129,7 @@ const Contact = () => {
                 />
                 {error.email && (
                   <p className="text-sm text-red-400">
-                    Favor ingrese una dirección de correo electrónico válida.
+                    Favor ingresar una dirección de correo electrónico válida.
                   </p>
                 )}
               </div>
