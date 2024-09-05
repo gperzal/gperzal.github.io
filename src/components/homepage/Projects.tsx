@@ -17,8 +17,8 @@ interface ProjectType {
   role: string;
   demo: string;
   code: string;
-  image?: string; 
-  tags?: string[]; 
+  image?: string;
+  tags?: string[];
 }
 
 const ProjectCard: React.FC<{ project: ProjectType }> = ({ project }) => {
@@ -136,7 +136,24 @@ const Projects: React.FC = () => {
   const { projects } = personalData;
 
   return (
-    <div id="projects" className="relative z-50  my-12 lg:my-24">
+    <div
+      id="projects"
+      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+    >
+      <Image
+        src="/section.svg"
+        alt="Hero"
+        width={1572}
+        height={795}
+        className="absolute top-0 -z-10"
+      />
+      <div className="flex justify-center -translate-y-[1px] mb-12">
+        <div className="w-3/4">
+          <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent w-full" />
+        </div>
+      </div>
+      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl opacity-20"></div>
+
       <div className="sticky top-10">
         <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
         <div className="flex items-center justify-start relative">

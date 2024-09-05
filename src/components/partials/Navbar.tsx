@@ -20,7 +20,7 @@ function Navbar() {
               href="/#about"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                ABOUT
+              SOBRE MÍ
               </div>
             </Link>
           </li>
@@ -30,7 +30,7 @@ function Navbar() {
               href="/#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EXPERIENCE
+              EXPERIENCIA
               </div>
             </Link>
           </li>
@@ -40,7 +40,7 @@ function Navbar() {
               href="/#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                SKILLS
+              HABILIDADES
               </div>
             </Link>
           </li>
@@ -50,7 +50,7 @@ function Navbar() {
               href="/#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EDUCATION
+              EDUCACIÓN
               </div>
             </Link>
           </li>
@@ -61,7 +61,7 @@ function Navbar() {
               href="/#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                PROJECTS
+              PROYECTOS
               </div>
             </Link>
           </li>

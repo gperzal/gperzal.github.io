@@ -1,4 +1,4 @@
-import personalData from "@/utils/data/personal-data.json"; // Asegúrate de que el archivo JSON está configurado correctamente
+import personalData from "@/utils/data/personal-data.json"; 
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin, BsTwitterX } from "react-icons/bs";
@@ -246,7 +246,7 @@ const HeroSection: React.FC = () => {
                 <span className="ml-4 lg:ml-8 text-gray-400">{`},`}</span>
               </div>
 
-              {/* Cierre */}
+          
               <div>
                 <span className="text-gray-400">{`};`}</span>
               </div>

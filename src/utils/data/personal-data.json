@@ -6,8 +6,8 @@
         "address": "Santiago de Chile",
         "devUsername": "gperzal",
         "github": "https://github.com/gperzal",
-        "facebook": "https://www.facebook.com/gperzal",
-        "linkedIn": "https://www.linkedin.com/in/gperzal",
+        "facebook": "https://www.facebook.com/ShioNx",
+        "linkedIn": "https://www.linkedin.com/in/guido-perez-zelaya/",
         "twitter": "https://twitter.com/gperzal",
         "stackOverflow": "https://stackoverflow.com/users/16840768/gperzal",
         "devto": "https://dev.to/gperzal/",
@@ -92,29 +92,29 @@
     "projects": [
         {
             "id": 1,
-            "name": "AI Powered Financial App",
-            "description": "Construimos una aplicación móvil financiera impulsada por IA utilizando Express, Typescript, OpenAI, AWS y MongoDB. Integré autenticación OTP con AWS SES y sistemas de autenticación con Google y Facebook.",
+            "name": "Clinica Veterinaria",
+            "description": "Desarrolló una aplicación web para una clinica de animales. Incluye Reserva de Horas Medicas, Carrito de Compras y Panel Auto Administrave. ",
             "tools": [
+                "Node.js",
                 "Express",
                 "MongoDB",
                 "OpenAI API",
-                "AWS SES",
-                "AWS S3",
-                "Node Mailer",
-                "Joi",
-                "Puppeteer",
-                "EC2",
-                "PM2",
-                "Nginx"
+                "Brevo",
+                "React",
+                "Vite.js",
+                "Chakra UI"
             ],
-            "role": "Backend Developer",
-            "code": "",
-            "demo": "",
-            "image": "/image/crefin.jpg",
+            "role": "Full Stack Developer",
+            "code": "https://github.com/gperzal/Clinica-Veterinaria",
+            "demo": "https://client-app-eosin.vercel.app/",
+            "image": "/image/clinica.png",
             "tags": [
-                "Finance",
+                "Ecommerce",
                 "AI",
-                "Mobile App"
+                "Mobile App",
+                "Web App",
+                "Age",
+                "Appointment"
             ]
         },
         {
@@ -229,35 +229,35 @@
         },
         {
             "name": "JavaScript",
-            "category": "Programming"
+            "category": "Program"
         },
         {
             "name": "TypeScript",
-            "category": "Programming"
+            "category": "Program"
         },
         {
             "name": "Python",
-            "category": "Programming"
+            "category": "Program"
         },
         {
             "name": "Django",
-            "category": "Programming"
+            "category": "Program"
         },
         {
             "name": "PostgreSQL",
-            "category": "Database"
+            "category": "DB"
         },
         {
             "name": "MongoDB",
-            "category": "Database"
+            "category": "DB"
         },
         {
             "name": "MySQL",
-            "category": "Database"
+            "category": "DB"
         },
         {
             "name": "Oracle",
-            "category": "Database"
+            "category": "DB"
         },
         {
             "name": "Git",

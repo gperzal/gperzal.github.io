@@ -102,12 +102,7 @@ const Education: React.FC = () => {
 
                       <div>
                         <p className="text-base sm:text-xl mb-2 font-medium uppercase flex items-center">
-                          {edu.title}{" "}
-                          {edu.graduated && (
-                            <span className="ml-2 inline-block bg-green-500 text-white text-xs px-2 py-1 rounded-full">
-                              Titulado
-                            </span>
-                          )}
+                          {edu.title}
                         </p>
                         <p className="text-sm sm:text-base">
                           {edu.institution}
@@ -115,6 +110,11 @@ const Education: React.FC = () => {
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {edu.duration}
                         </p>
+                        {edu.graduated && (
+                          <span className="inline-block bg-green-500 text-white text-xs px-2 py-1 rounded-full">
+                            Titulado
+                          </span>
+                        )}
                       </div>
                     </div>
 
@@ -124,8 +124,8 @@ const Education: React.FC = () => {
                         <Image
                           src={edu.certificateImage || placeholderImage}
                           alt={`Certificado de ${edu.title}`}
-                          width={100}
-                          height={100}
+                          width={80}
+                          height={80}
                           className="rounded-lg hover:scale-110 transition-transform duration-300 cursor-pointer"
                           onClick={() =>
                             handleImageClick(edu.certificateImage!)
@@ -183,8 +183,8 @@ const Education: React.FC = () => {
                   <Image
                     src={cert.certificateImage || placeholderImage}
                     alt={`Certificado de ${cert.title}`}
-                    width={90}
-                    height={90}
+                    width={80}
+                    height={80}
                     className="rounded-lg hover:scale-110 transition-transform duration-300 cursor-pointer"
                     onClick={() => handleImageClick(cert.certificateImage)}
                   />
