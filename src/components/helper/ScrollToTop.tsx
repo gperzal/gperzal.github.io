@@ -18,9 +18,10 @@ const ScrollToTop: React.FC = () => {
         setBtnCls(DEFAULT_BTN_CLS + " hidden");
       }
     };
-    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    window.addEventListener("scroll", handleScroll, true);
     return () => {
-      window.removeEventListener("scroll", handleScroll, { passive: true });
+      window.removeEventListener("scroll", handleScroll, true);
     };
   }, []);
 
