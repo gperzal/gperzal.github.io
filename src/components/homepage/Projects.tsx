@@ -165,7 +165,7 @@ const Projects: React.FC = () => {
 
       <div className="pt-24">
         <div className="flex flex-col gap-6">
-          {projects.slice(0, 4).map((project: ProjectType, index: number) => (
+          {projects.slice(0, 10).map((project: ProjectType, index: number) => (
             <div
               id={`sticky-card-${index + 1}`}
               key={index}

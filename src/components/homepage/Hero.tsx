@@ -1,4 +1,4 @@
-import personalData from "@/utils/data/personal-data.json"; 
+import personalData from "@/utils/data/personal-data.json";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin, BsTwitterX } from "react-icons/bs";
@@ -22,12 +22,12 @@ const HeroSection: React.FC = () => {
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
-          <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
+          <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem] md:text-4xl text-justify">
             Hola, Bienvenido a mi Portfolio <br />
-            Soy <span className="text-pink-500">{personal.name}</span>
-            {` , `}
-            <span className="text-[#16f2b3]">{personal.designation}</span>.
-            enfocado en desarrollo web
+            Soy <span className="text-pink-500">{personal.name}</span>.
+            <br />
+            <span className="text-[#16f2b3]">{personal.designation}</span>, con
+            enfoque en el desarrollo web
           </h1>
 
           <div className="my-12 flex items-center gap-5">
@@ -246,7 +246,6 @@ const HeroSection: React.FC = () => {
                 <span className="ml-4 lg:ml-8 text-gray-400">{`},`}</span>
               </div>
 
-          
               <div>
                 <span className="text-gray-400">{`};`}</span>
               </div>

@@ -17,8 +17,14 @@ const AboutSection: React.FC = () => {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             ¿Quién soy yo?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
-            {personal.description}
+          <p className="text-gray-200 text-sm lg:text-lg text-justify">
+            {personal.description.split("\n").map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+                <br />
+              </span>
+            ))}
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">

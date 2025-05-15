@@ -92,7 +92,7 @@ const Education: React.FC = () => {
                       alt="Hero"
                       width={1080}
                       height={200}
-                      className="absolute bottom-0 opacity-80 z-0" // Asegurar que el blur esté debajo
+                      className="absolute bottom-0 opacity-80 z-0" 
                     />
 
                     <div className="flex items-center gap-x-8 px-3 py-5 w-2/3 z-10">

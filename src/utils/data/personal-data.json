@@ -14,7 +14,7 @@
         "slack": "https://leetcode.com/gperzal/",
         "profileImage": "/profile.jpg",
         "designation": "Ingeniero en Informática",
-        "description": "Soy Guido Perez, Analista Programador y tambien Ingeniero en Informática en INACAP, con 3 años de experiencia en roles autónomos y freelance. Especializado en el diseño, implementación, y mantenimiento de soluciones web, con sólido conocimiento en arquitecturas de software y desarrollo full-stack. Hábil en la comunicación y colaboración dentro de equipos multidisciplinarios, y proactivo en la búsqueda de soluciones innovadoras para afrontar desafíos técnicos en entornos dinámicos. Experiencia comprobada en la gestión y liderazgo de proyectos complejos, con un enfoque constante en la mejora continua y en mantenerse actualizado con las últimas tecnologías.",
+        "description": "Soy Guido Perez, Ingeniero en Informática con más de 3 años de experiencia desarrollando soluciones web full-stack. Trabajo con tecnologías como React, Node.js, Django y Spring Boot, combinando buenas prácticas, escalabilidad y enfoque en la eficiencia. Tengo experiencia liderando proyectos reales en sectores como salud, educación y comercio, integrando cloud, CI/CD y APIs REST. \nMe destaco por mi liderazgo técnico, pensamiento analítico y capacidad para trabajar en equipos multidisciplinarios. Apasionado por la innovación y la mejora continua, me mantengo en constante actualización para resolver desafíos técnicos con eficiencia y construir software que genere un impacto real.",
         "resume": "https://1drv.ms/b/c/6284d9d624106334/ETQCyaHhHotHiY8Y4Osqh_MBttiRFsV4aHa3AyO5Od8KjA?e=ShXIdh"
     },
     "education": [
@@ -23,8 +23,8 @@
             "title": "Ingeniería en Informática",
             "duration": "2022 - 2024",
             "institution": "Instituto Nacional de Capacitación Profesional - INACAP",
-            "certificateImage": "/png/placeholder.png",
-            "graduated": false
+            "certificateImage": "/certificate/ing-en-informatica.jpg",
+            "graduated": true
         },
         {
             "id": 2,
@@ -184,6 +184,29 @@
                 "Travel",
                 "NextJS"
             ]
+        },
+        {
+            "id": 4,
+            "name": "BancoSimple Platform",
+            "description": "Diseñé e implementé una plataforma bancaria digital integrada con un ecosistema de ecommerce. Incluye funcionalidades como transferencias internas, recargas de saldo, historial de transacciones y autenticación segura. El proyecto fue desarrollado con una arquitectura modular en Java (Spring Boot) para el backend y React con TailwindCSS para el frontend.",
+            "tools": [
+                "Spring Boot",
+                "Java 21",
+                "React",
+                "TailwindCSS",
+                "PostgreSQL",
+                "JWT",
+                "Docker",
+                "Vercel"
+            ],
+            "role": "Full Stack Developer",
+            "code": "https://github.com/gperzal/BancoSimple",
+            "demo": "bancosimple.vercel.app",
+            "image": "/image/bancosimple.jpg",
+            "tags": [
+                "Fintech",
+                "Fullstack"
+            ]
         }
     ],
     "skills": [
@@ -229,6 +252,10 @@
         },
         {
             "name": "JavaScript",
+            "category": "Program"
+        },
+        {
+            "name": "Java",
             "category": "Program"
         },
         {
