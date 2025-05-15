@@ -75,6 +75,7 @@ import vitejs from '/public/svg/skills/vitejs.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 import oracle from '/public/svg/skills/oracle.svg';
 import shadcnui from '/public/svg/skills/shadcnui.svg';
+import springboot from '/public/svg/skills/springboot.svg';
 import chakraui from '/public/svg/skills/chakraui.svg';
 
 // Mapa de habilidades a sus imágenes correspondientes
@@ -155,6 +156,7 @@ const skillImageMap = {
   'canva': canva,
   'oracle': oracle,
   'shadcnui': shadcnui,
+  'spring boot': springboot,
   'chakraui': chakraui,
 };
 

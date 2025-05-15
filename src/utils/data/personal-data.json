@@ -106,7 +106,7 @@
             ],
             "role": "Full Stack Developer",
             "code": "https://github.com/gperzal/Clinica-Veterinaria",
-            "demo": "https://client-app-eosin.vercel.app/",
+            "demo": "https://pawmart.vercel.app/",
             "image": "/image/clinica.png",
             "tags": [
                 "Ecommerce",
@@ -256,6 +256,10 @@
         },
         {
             "name": "Java",
+            "category": "Program"
+        },
+        {
+            "name": "Spring Boot",
             "category": "Program"
         },
         {
