@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "GAPZ Portafolio - Desarrollador y Consultor Tecnológico",
   description:
-    "Soy Guido Perez, Analista Programador y futuro Ingeniero en Informática con 3 años de experiencia en desarrollo web y soluciones tecnológicas. Me especializo en crear aplicaciones eficientes y escalables, trabajando de manera autónoma o en equipos. Siempre busco aprender y aplicar nuevas tecnologías para ofrecer soluciones innovadoras y de calidad.",
+    "Soy Guido Pérez, Ingeniero en Informática con mas 3 años de experiencia en desarrollo web y soluciones tecnológicas. Me especializo en crear aplicaciones eficientes y escalables, trabajando de manera autónoma o en equipos. Siempre busco aprender y aplicar nuevas tecnologías para ofrecer soluciones innovadoras y de calidad.",
 };
 
 interface RootLayoutProps {
