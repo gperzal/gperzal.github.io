@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "GAPZ Portafolio - Desarrollador y Consultor Tecnológico",
   description:
-    "Soy Guido Pérez, Ingeniero en Informática con mas 3 años de experiencia en desarrollo web y soluciones tecnológicas. Me especializo en crear aplicaciones eficientes y escalables, trabajando de manera autónoma o en equipos. Siempre busco aprender y aplicar nuevas tecnologías para ofrecer soluciones innovadoras y de calidad.",
+    "Soy Guido Pérez, Ingeniero en Informática y Desarrollador Fullstack con más de 3 años de experiencia creando aplicaciones web eficientes y escalables en sectores como salud, educación y comercio. Trabajo con tecnologías como JavaScript, Python, React, Django y bases de datos SQL/NoSQL, aplicando buenas prácticas en el diseño de APIs REST y despliegue en la nube. Me apasiona aprender y mantenerme actualizado, y disfruto colaborar en equipos multidisciplinarios para desarrollar soluciones innovadoras que optimicen procesos y generen un impacto real.",
 };
 
 interface RootLayoutProps {
